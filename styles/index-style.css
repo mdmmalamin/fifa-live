@@ -7,13 +7,14 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    margin: 50px 0 130px;
 }
 .top-banner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
-    Width:1321px;
-    Height:646px;
+    Width:1320px;
+    Height:645px;
     border-radius: 30px;
     background-color: #161616;
     color: #FFFFFF;
@@ -53,4 +54,100 @@ body{
     width: 581px;
     height: 613px;
     padding: 33px 78px 0 0;
+}
+/* Main section style */
+.main-section{
+    display: flex;
+    Width: 1320px;
+}
+/* Nav style */
+.nav-menu {
+    background-color: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+}
+.nav-title a{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 17px;
+    margin: 30px;
+    color: #161616;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-title a:hover{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+/* Blog section */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    width: 1008px;
+    justify-items: end;
+}
+.card-blog{
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.blog-title{
+    padding: 20px;
+}
+.blog-title .transfer{
+    width: 66px;
+    padding: 4px 17px;
+    margin: 0;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.blog-title h3{
+    color: #161616;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.blog-footer{
+    display: flex;
+    align-items: center;
+}
+.blog-footer p{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+/* Footer Section */
+footer{
+    height: 445px;
+    background-color: #161616;
+    color: #FFFFFF;
+}
+footer h1{
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 40px;
+}
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-color{
+    color: #B9B9B9;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
 }
