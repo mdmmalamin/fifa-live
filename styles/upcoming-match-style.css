@@ -181,12 +181,9 @@ hr{
 ----------------------- */
 @media only screen and (max-width: 688px){
     /*  -------------------
-Header Media Queries
+small screen
 -------------------  */
 
-    .container{
-        
-    }
     .top-banner{
         width: 95%;
         height: 100%;
@@ -291,4 +288,94 @@ footer h1{
     justify-items: center
 }
 
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+     /*  -------------------
+medium screen
+-------------------  */ 
+.top-banner{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-banner{
+    padding: 3em;
+    width: 90%;
+    
+}
+.left-banner h1{
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 80px;
+    margin: 0;
+}
+.left-banner p{
+    font-weight: 400;
+    font-size: 1em;
+    
+
+}
+.left-banner button{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    margin: 0;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+.right-banner img{
+    width: 90%;
+    padding: 0;
+    margin-top: 30px;
+    
+}
+
+.main-section{
+    display: flex;
+    Width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+}
+/*  --------------------
+    Nav style
+    --------------------  */
+.nav-menu {
+ width: 95%;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.nav-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    color: #161616;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.selected{
+    background-color: #DD0000;
+    color: #FFFFFF;
+
+}
+.match-schedule{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    width: 95%;
+    justify-items: end;
+}
+.footer-nav{
+    column-gap: 10px;
+
+}
 }
