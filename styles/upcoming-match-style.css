@@ -1,6 +1,6 @@
 /*  -------------------
-    Header Banner style
-    -------------------  */
+Header Banner style
+-------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -21,6 +21,9 @@ body{
     background-color: #161616;
     color: #FFFFFF;
 }
+/*  -------------------
+    Left Banner
+    -------------------  */
 .left-banner{
     padding: 111px 24px 111px 106px;
     width: 531px;
@@ -50,6 +53,9 @@ body{
     font-size: 20px;
     padding-left: 5px;
 }
+/*  -------------------
+    Right Banner
+    -------------------  */
 .right-banner img{
     width: 581px;
     height: 613px;
@@ -90,9 +96,9 @@ body{
     color: #FFFFFF;
 }
 /*  -------------------
-    Blog section 
+    Match Schedule section 
     -------------------  */
-.blogs{
+.match-schedule{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;
@@ -100,44 +106,45 @@ body{
     width: 1008px;
     justify-items: end;
 }
-.card-blog{
-    width: 312px;
+.card{
+    width: 252px;
+    padding: 52px 30px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
-.blog-title{
-    padding: 20px;
+.card-flag{
+display: grid;
+grid-template-columns: 1fr 50px 1fr;
+padding-bottom: 20px;
+margin: 0;
 }
-.blog-title .transfer{
-    width: 66px;
-    padding: 4px 17px;
+.card-flag{
+    padding: 0;
     margin: 0;
-    color: #161616;
-    font-weight: 500;
-    font-size: 16px;
-    border: 1px solid #161616;
-    border-radius: 5px;
 }
-.blog-title h3{
-    color: #161616;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    margin-top: 15px;
-    margin-bottom: 0;
+.card-flag strong{
+text-align: center;
+padding: 15px 0;
+font-weight: 700;
+font-size: 20px;
+color: #161616;
 }
-.blog-footer{
-    display: flex;
-    align-items: center;
+.card-title h1{
+font-weight: 600;
+font-size: 20px;
+color: #161616;
+text-align: center;
+padding: 0;
+margin: 0;
 }
-.blog-footer p{
-    padding-left: 10px;
-    padding-right: 30px;
+.card-title h3{
+font-weight: 400;
+font-size: 16px;
+color: #4D4D4D;
+text-align: center;
 }
 /*  -------------------
-    Footer Section
+Footer Section
     -------------------  */
 footer{
     height: 600px;
