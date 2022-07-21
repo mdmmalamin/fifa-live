@@ -175,3 +175,120 @@ hr{
     margin:0 30px;
     color: #B9B9B9;
 }
+
+/*---------------------
+     Media Queries
+----------------------- */
+@media only screen and (max-width: 688px){
+    /*  -------------------
+Header Media Queries
+-------------------  */
+
+    .container{
+        
+    }
+    .top-banner{
+        width: 95%;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .left-banner{
+        padding: 3em;
+        width: 90%;
+        
+    }
+    .left-banner h1{
+        font-weight: 600;
+        font-size: 4em;
+        line-height: 80px;
+        margin: 0;
+    }
+    .left-banner p{
+        font-weight: 400;
+        font-size: 1em;
+        
+    
+    }
+    .left-banner button{
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 16px 25px;
+        margin: 0;
+        background-color: #DD0000;
+        border-radius: 5px;
+    }
+    .right-banner img{
+        width: 80%;
+        padding: 3em 3em 0;
+        margin-top: 2em;
+    }
+
+
+    /*  -------------------
+main Media Queries
+-------------------  */
+.main-section{
+    display: flex;
+    Width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+     flex-direction: column;
+}
+/*  --------------------
+    Nav style
+    --------------------  */
+.nav-menu {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.nav-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    color: #161616;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.selected{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.match-schedule{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 24px;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+}
+
+/* footer */
+footer{
+    height: 100%;
+   flex-direction: column;
+}
+
+hr{
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer h1{
+    text-align: center;
+    
+    font-weight: 600;
+    font-size: 40px;
+}
+.footer-nav{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center
+}
+
+}
